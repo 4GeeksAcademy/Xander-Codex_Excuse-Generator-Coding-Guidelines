@@ -1,5 +1,16 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+    display: flex;
+    font-family: sans-serif;
+}
 
-body{
-    background: white;
+.centrar {
+    text-align: center;
+    margin: auto;
+}
+
+.botones button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
 }
